@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapper {
+  background-color: black;
+  width: 220px;
+  padding: 10px;
+  color: white;
+  border-radius: 10%;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+}
+.input-wrapper input {
+  border-radius: 4%;
+  border: 0;
+  background-color: wheat;
+  width: 160px;
+  padding: 6px;
+  height: 20px;
+  margin: 10px;
+}
+.input-wrapper button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 0;
+}
